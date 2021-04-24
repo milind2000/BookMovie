@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="14dp"
+        android:text="Mail Us" 
+        android:background="#FFFF00"/>
+
+    <Button
+        android:id="@+id/msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/call"
+        android:layout_below="@+id/mail"
+        android:layout_marginTop="25dp"
+        android:text="Send a Message" 
+        android:background="#FFFF00"/>
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/msg"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="34dp"
+        android:text="Call Customer Care" 
+        android:background="#FFFF00"/>
+
+</RelativeLayout>
